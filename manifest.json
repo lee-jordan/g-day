@@ -1,0 +1,13 @@
+{
+  "name": "G'Day",
+  "version": "1.0",
+  "description": "Australiafy the web one page at a time cobba",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["gday.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
